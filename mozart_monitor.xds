@@ -55,7 +55,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "id": "job_name",
-                                "dataIndex": "job_name",
+                                "dataIndex": "job_id",
                                 "text": "job name",
                                 "designer|userClassName": "MyColumn"
                             }
@@ -316,7 +316,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "mapping": "",
-                        "name": "job_name",
+                        "name": "job_id",
                         "type": "string",
                         "designer|userClassName": "MyField"
                     }

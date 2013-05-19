@@ -273,6 +273,7 @@
             },
             "codeClass": null,
             "userConfig": {
+                "autoLoad": true,
                 "storeId": "MozartJsonStore",
                 "designer|userClassName": "MozartJsonStore"
             },

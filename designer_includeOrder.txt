@@ -1,0 +1,3 @@
+<script type="text/javascript" src="app/view/ui/MozartMonitor.js"></script>
+<script type="text/javascript" src="app/view/MozartMonitor.js"></script>
+<script type="text/javascript" src="app/store/MozartJsonStore.js"></script>

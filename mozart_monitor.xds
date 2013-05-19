@@ -1,0 +1,303 @@
+{
+    "name": "mozart_monitor.xds",
+    "settings": {
+        "urlPrefix": "http://localhost/",
+        "directAPI": "",
+        "spacesToIndent": 4,
+        "codeGenFormat": "Class",
+        "exportPath": ".",
+        "extPath": "http://extjs.cachefly.net/ext-4.0.2a/",
+        "lineEnding": "LF",
+        "instantiateStore": true,
+        "exportXDSFiles": true,
+        "genTimestamps": true,
+        "appName": "MyApp"
+    },
+    "xdsVersion": "1.2.3",
+    "components": [
+        {
+            "id": "ExtBox1-ext-gen3859",
+            "type": "viewport",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "border",
+                "designer|userClassName": "MozartMonitor"
+            },
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen3947",
+                    "type": "gridpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 500,
+                        "autoScroll": true,
+                        "title": "Mozart Job Monitor",
+                        "store": "MozartJsonStore",
+                        "designer|userClassName": "MyGridPanel",
+                        "layout|region": "north"
+                    },
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen3961",
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "string",
+                                "text": "job name",
+                                "designer|userClassName": "MyColumn"
+                            }
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen3975",
+                            "type": "datecolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "date",
+                                "text": "queued",
+                                "designer|userClassName": "MyDateColumn"
+                            }
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen7616",
+                            "type": "datecolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "date",
+                                "text": "started",
+                                "designer|userClassName": "MyDateColumn"
+                            }
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen7691",
+                            "type": "datecolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "date",
+                                "text": "ended",
+                                "designer|userClassName": "MyDateColumn"
+                            }
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen7967",
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "string",
+                                "text": "parameters",
+                                "designer|userClassName": "MyColumn"
+                            }
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen8286",
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "string",
+                                "text": "compute node",
+                                "designer|userClassName": "MyColumn"
+                            }
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen8406",
+                            "type": "gridcolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "string",
+                                "text": "status",
+                                "designer|userClassName": "MyColumn"
+                            }
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen3968",
+                            "type": "numbercolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "dataIndex": "number",
+                                "text": "duration",
+                                "designer|userClassName": "MyNumberColumn"
+                            }
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen3989",
+                            "type": "gridview",
+                            "reference": {
+                                "name": "viewConfig",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyGridView"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen4840",
+                    "type": "tabpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "activeTab": 0,
+                        "designer|userClassName": "MyTabPanel",
+                        "layout|region": "center"
+                    },
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen4857",
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "title": "STDOUT",
+                                "designer|userClassName": "MyPanel"
+                            }
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen4866",
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "title": "STDERR",
+                                "designer|userClassName": "MyPanel1"
+                            }
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen4875",
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "title": "Work Dir",
+                                "designer|userClassName": "MyPanel2"
+                            }
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen6917",
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "title": "Job Info",
+                                "designer|userClassName": "MyPanel2"
+                            }
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen7012",
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "title": "Context",
+                                "designer|userClassName": "MyPanel2"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stores": [
+        {
+            "id": "ExtBox1-ext-gen9311",
+            "type": "jsonstore",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "storeId": "MozartJsonStore",
+                "designer|userClassName": "MozartJsonStore"
+            },
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen9315",
+                    "type": "ajaxproxy",
+                    "reference": {
+                        "name": "proxy",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "url": "get_job_summary",
+                        "designer|userClassName": "Ajax Proxy"
+                    },
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen9321",
+                            "type": "jsonreader",
+                            "reference": {
+                                "name": "reader",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "Json Reader"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "framework": "ext40"
+}

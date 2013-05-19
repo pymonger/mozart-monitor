@@ -54,7 +54,8 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "dataIndex": "string",
+                                "id": "job_name",
+                                "dataIndex": "job_name",
                                 "text": "job name",
                                 "designer|userClassName": "MyColumn"
                             }
@@ -68,7 +69,8 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "dataIndex": "date",
+                                "id": "queued",
+                                "dataIndex": "queued",
                                 "text": "queued",
                                 "designer|userClassName": "MyDateColumn"
                             }
@@ -82,7 +84,8 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "dataIndex": "date",
+                                "id": "started",
+                                "dataIndex": "started",
                                 "text": "started",
                                 "designer|userClassName": "MyDateColumn"
                             }
@@ -96,7 +99,8 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "dataIndex": "date",
+                                "id": "ended",
+                                "dataIndex": "ended",
                                 "text": "ended",
                                 "designer|userClassName": "MyDateColumn"
                             }
@@ -110,7 +114,8 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "dataIndex": "string",
+                                "id": "parameters",
+                                "dataIndex": "parameters",
                                 "text": "parameters",
                                 "designer|userClassName": "MyColumn"
                             }
@@ -124,7 +129,8 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "dataIndex": "string",
+                                "id": "compute_node",
+                                "dataIndex": "compute_node",
                                 "text": "compute node",
                                 "designer|userClassName": "MyColumn"
                             }
@@ -138,7 +144,8 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "dataIndex": "string",
+                                "id": "status",
+                                "dataIndex": "status",
                                 "text": "status",
                                 "designer|userClassName": "MyColumn"
                             }
@@ -152,7 +159,8 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "dataIndex": "number",
+                                "id": "duration",
+                                "dataIndex": "duration",
                                 "text": "duration",
                                 "designer|userClassName": "MyNumberColumn"
                             }
@@ -291,10 +299,124 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "root": "jobs",
                                 "designer|userClassName": "Json Reader"
                             }
                         }
                     ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen10727",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "mapping": "",
+                        "name": "job_name",
+                        "type": "string",
+                        "designer|userClassName": "MyField"
+                    }
+                },
+                {
+                    "id": "ExtBox1-ext-gen10734",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "queued",
+                        "type": "date",
+                        "designer|userClassName": "MyField1"
+                    }
+                },
+                {
+                    "id": "ExtBox1-ext-gen10741",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "started",
+                        "type": "date",
+                        "designer|userClassName": "MyField2"
+                    }
+                },
+                {
+                    "id": "ExtBox1-ext-gen10748",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "ended",
+                        "type": "date",
+                        "designer|userClassName": "MyField3"
+                    }
+                },
+                {
+                    "id": "ExtBox1-ext-gen10755",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "parameters",
+                        "type": "string",
+                        "designer|userClassName": "MyField4"
+                    }
+                },
+                {
+                    "id": "ExtBox1-ext-gen11687",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "compute_node",
+                        "type": "string",
+                        "designer|userClassName": "MyField5"
+                    }
+                },
+                {
+                    "id": "ExtBox1-ext-gen11694",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "status",
+                        "type": "string",
+                        "designer|userClassName": "MyField6"
+                    }
+                },
+                {
+                    "id": "ExtBox1-ext-gen11701",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "duration",
+                        "type": "float",
+                        "designer|userClassName": "MyField7"
+                    }
                 }
             ]
         }

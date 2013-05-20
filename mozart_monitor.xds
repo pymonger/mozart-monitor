@@ -41,7 +41,7 @@
                         "height": 500,
                         "id": "job_grid",
                         "autoScroll": true,
-                        "resizable": null,
+                        "resizable": "true",
                         "title": "Mozart Job Management",
                         "store": "MozartJsonStore",
                         "designer|userClassName": "MyGridPanel",
@@ -204,7 +204,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "job_tab_panel",
-                        "resizable": "true",
+                        "resizable": null,
                         "activeTab": 0,
                         "designer|userClassName": "MyTabPanel",
                         "layout|region": "center"

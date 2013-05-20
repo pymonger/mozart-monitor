@@ -56,7 +56,7 @@
                             "userConfig": {
                                 "id": "job_name",
                                 "dataIndex": "job_id",
-                                "flex": null,
+                                "flex": 2,
                                 "text": "job name",
                                 "designer|userClassName": "MyColumn"
                             }
@@ -72,7 +72,7 @@
                             "userConfig": {
                                 "id": "queued",
                                 "dataIndex": "queued",
-                                "flex": null,
+                                "flex": 1,
                                 "text": "queued",
                                 "format": "Y-m-d H:i:s",
                                 "designer|userClassName": "MyDateColumn"
@@ -89,7 +89,9 @@
                             "userConfig": {
                                 "id": "started",
                                 "dataIndex": "started",
+                                "flex": 1,
                                 "text": "started",
+                                "format": "Y-m-d H:i:s",
                                 "designer|userClassName": "MyDateColumn"
                             }
                         },
@@ -104,7 +106,9 @@
                             "userConfig": {
                                 "id": "ended",
                                 "dataIndex": "ended",
+                                "flex": 1,
                                 "text": "ended",
+                                "format": "Y-m-d H:i:s",
                                 "designer|userClassName": "MyDateColumn"
                             }
                         },
@@ -119,7 +123,7 @@
                             "userConfig": {
                                 "id": "parameters",
                                 "dataIndex": "parameters",
-                                "flex": null,
+                                "flex": 2,
                                 "text": "parameters",
                                 "designer|userClassName": "MyColumn"
                             }
@@ -135,7 +139,7 @@
                             "userConfig": {
                                 "id": "compute_node",
                                 "dataIndex": "compute_node",
-                                "flex": null,
+                                "flex": 1,
                                 "text": "compute node",
                                 "designer|userClassName": "MyColumn"
                             }
@@ -151,6 +155,7 @@
                             "userConfig": {
                                 "id": "status",
                                 "dataIndex": "status",
+                                "flex": 1,
                                 "text": "status",
                                 "designer|userClassName": "MyColumn"
                             }
@@ -166,6 +171,7 @@
                             "userConfig": {
                                 "id": "duration",
                                 "dataIndex": "duration",
+                                "flex": 1,
                                 "text": "duration",
                                 "designer|userClassName": "MyNumberColumn"
                             }

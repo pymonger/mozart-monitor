@@ -256,7 +256,25 @@
                                 "layout": "fit",
                                 "title": "Context",
                                 "designer|userClassName": "MyPanel2"
-                            }
+                            },
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen5503",
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "cls": "preview",
+                                        "id": "context_panel",
+                                        "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{queued}</span>\n<h3 class=\"post-title\">{job_id}</h3>\n<h4 class=\"post-author\">current status: {status}</h4>\n</div>\n<div class=\"post-body\"><pre>{context}</pre></div>",
+                                        "title": null,
+                                        "designer|userClassName": "MyPanel5"
+                                    }
+                                }
+                            ]
                         },
                         {
                             "id": "ExtBox1-ext-gen4857",
@@ -271,7 +289,25 @@
                                 "layout": "fit",
                                 "title": "STDOUT",
                                 "designer|userClassName": "MyPanel"
-                            }
+                            },
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen5927",
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "cls": "preview",
+                                        "id": "stdout_panel",
+                                        "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{queued}</span>\n<h3 class=\"post-title\">{job_id}</h3>\n<h4 class=\"post-author\">current status: {status}</h4>\n</div>\n<div class=\"post-body\"><pre>{stdout}</pre></div>",
+                                        "title": null,
+                                        "designer|userClassName": "MyPanel5"
+                                    }
+                                }
+                            ]
                         },
                         {
                             "id": "ExtBox1-ext-gen4866",
@@ -286,7 +322,25 @@
                                 "layout": "fit",
                                 "title": "STDERR",
                                 "designer|userClassName": "MyPanel1"
-                            }
+                            },
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen6405",
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "cls": "preview",
+                                        "id": "stderr_panel",
+                                        "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{queued}</span>\n<h3 class=\"post-title\">{job_id}</h3>\n<h4 class=\"post-author\">current status: {status}</h4>\n</div>\n<div class=\"post-body\"><pre>{stderr}</pre></div>",
+                                        "title": null,
+                                        "designer|userClassName": "MyPanel5"
+                                    }
+                                }
+                            ]
                         },
                         {
                             "id": "ExtBox1-ext-gen4875",
@@ -301,7 +355,25 @@
                                 "layout": "fit",
                                 "title": "Work Dir",
                                 "designer|userClassName": "MyPanel2"
-                            }
+                            },
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen6837",
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "cls": "preview",
+                                        "id": "work_dir_panel",
+                                        "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{queued}</span>\n<h3 class=\"post-title\">{job_id}</h3>\n<h4 class=\"post-author\">current status: {status}</h4>\n</div>\n<div class=\"post-body\"><pre>{work_dir}</pre></div>",
+                                        "title": null,
+                                        "designer|userClassName": "MyPanel5"
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }

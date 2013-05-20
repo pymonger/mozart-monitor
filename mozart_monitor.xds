@@ -186,7 +186,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "loadMask": null,
+                                "loadMask": "false",
                                 "designer|userClassName": "MyGridView"
                             }
                         }

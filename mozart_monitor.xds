@@ -204,7 +204,7 @@
                     "codeClass": null,
                     "userConfig": {
                         "id": "job_tab_panel",
-                        "resizable": null,
+                        "resizable": "true",
                         "activeTab": 0,
                         "designer|userClassName": "MyTabPanel",
                         "layout|region": "center"

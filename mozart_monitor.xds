@@ -216,10 +216,11 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "cls": "preview",
+                                "cls": null,
                                 "id": "job_info_tab",
-                                "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{pubDate:this.formatDate}</span>\n<h3 class=\"post-title\">{title}</h3>\n<h4 class=\"post-author\">by {author:this.defaultValue}</h4>\n</div>\n<div class=\"post-body\">{content:this.getBody}</div>",
+                                "tpl": null,
                                 "width": 1355,
+                                "layout": "fit",
                                 "title": "Job Info",
                                 "designer|userClassName": "MyPanel2"
                             },
@@ -233,6 +234,9 @@
                                     },
                                     "codeClass": null,
                                     "userConfig": {
+                                        "cls": "preview",
+                                        "id": "job_info_panel",
+                                        "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{queued:this.formatDate}</span>\n<h3 class=\"post-title\">{job_id}</h3>\n<h4 class=\"post-author\">by {status}</h4>\n</div>\n<div class=\"post-body\">{parameters}</div>",
                                         "title": null,
                                         "designer|userClassName": "MyPanel5"
                                     }
@@ -249,6 +253,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "id": "context_tab",
+                                "layout": "fit",
                                 "title": "Context",
                                 "designer|userClassName": "MyPanel2"
                             }
@@ -263,6 +268,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "id": "stdout_tab",
+                                "layout": "fit",
                                 "title": "STDOUT",
                                 "designer|userClassName": "MyPanel"
                             }
@@ -277,6 +283,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "id": "stderr_tab",
+                                "layout": "fit",
                                 "title": "STDERR",
                                 "designer|userClassName": "MyPanel1"
                             }
@@ -291,6 +298,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "id": "work_dir_tab",
+                                "layout": "fit",
                                 "title": "Work Dir",
                                 "designer|userClassName": "MyPanel2"
                             }

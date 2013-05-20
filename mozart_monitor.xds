@@ -205,6 +205,32 @@
                     },
                     "cn": [
                         {
+                            "id": "ExtBox1-ext-gen6917",
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "title": "Job Info",
+                                "designer|userClassName": "MyPanel2"
+                            }
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen7012",
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "title": "Context",
+                                "designer|userClassName": "MyPanel2"
+                            }
+                        },
+                        {
                             "id": "ExtBox1-ext-gen4857",
                             "type": "panel",
                             "reference": {
@@ -240,32 +266,6 @@
                             "codeClass": null,
                             "userConfig": {
                                 "title": "Work Dir",
-                                "designer|userClassName": "MyPanel2"
-                            }
-                        },
-                        {
-                            "id": "ExtBox1-ext-gen6917",
-                            "type": "panel",
-                            "reference": {
-                                "name": "items",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "title": "Job Info",
-                                "designer|userClassName": "MyPanel2"
-                            }
-                        },
-                        {
-                            "id": "ExtBox1-ext-gen7012",
-                            "type": "panel",
-                            "reference": {
-                                "name": "items",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "title": "Context",
                                 "designer|userClassName": "MyPanel2"
                             }
                         }

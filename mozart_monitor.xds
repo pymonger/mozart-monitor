@@ -270,7 +270,7 @@
                                     "userConfig": {
                                         "cls": "preview",
                                         "id": "context_panel",
-                                        "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{queued}</span>\n<h3 class=\"post-title\">{job_id}</h3>\n<h4 class=\"post-author\">current status: {status}</h4>\n</div>\n<div class=\"post-body\">\n<style type=\"text/css\">\n  iframe.executionFrame {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    background-color: #FFFFFF;\n    border-width: 0;\n    overflow: visible;\n  }\n</style>\n<iframe class=\"executionFrame\" src=\"{context}\"></iframe>\n</div>",
+                                        "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{queued}</span>\n<h3 class=\"post-title\">{job_id}</h3>\n<h4 class=\"post-author\">current status: {status}</h4>\n</div>\n<div class=\"post-body\">\n<style type=\"text/css\">\n  iframe.monitor_frame {\n    position: absolute;\n    width: 99%;\n    height: 90%;\n    background-color: #FFFFFF;\n    border-width: 0;\n    overflow: visible;\n  }\n</style>\n<iframe class=\"monitor_frame\" src=\"{context}\"></iframe>\n</div>",
                                         "layout": "fit",
                                         "title": null,
                                         "designer|userClassName": "MyPanel5"
@@ -304,7 +304,7 @@
                                     "userConfig": {
                                         "cls": "preview",
                                         "id": "stdout_panel",
-                                        "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{queued}</span>\n<h3 class=\"post-title\">{job_id}</h3>\n<h4 class=\"post-author\">current status: {status}</h4>\n</div>\n<div class=\"post-body\">\n<style type=\"text/css\">\n  iframe.executionFrame {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    background-color: #FFFFFF;\n    border-width: 0;\n    overflow: visible;\n  }\n</style>\n<iframe class=\"executionFrame\" src=\"{stdout}\"></iframe>\n</div>",
+                                        "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{queued}</span>\n<h3 class=\"post-title\">{job_id}</h3>\n<h4 class=\"post-author\">current status: {status}</h4>\n</div>\n<div class=\"post-body\">\n<style type=\"text/css\">\n  iframe.monitor_frame {\n    position: absolute;\n    width: 99%;\n    height: 90%;\n    background-color: #FFFFFF;\n    border-width: 0;\n    overflow: visible;\n  }\n</style>\n<iframe class=\"monitor_frame\" src=\"{stdout}\"></iframe>\n</div>",
                                         "layout": "fit",
                                         "title": null,
                                         "designer|userClassName": "MyPanel5"
@@ -338,7 +338,7 @@
                                     "userConfig": {
                                         "cls": "preview",
                                         "id": "stderr_panel",
-                                        "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{queued}</span>\n<h3 class=\"post-title\">{job_id}</h3>\n<h4 class=\"post-author\">current status: {status}</h4>\n</div>\n<div class=\"post-body\">\n<style type=\"text/css\">\n  iframe.executionFrame {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    background-color: #FFFFFF;\n    border-width: 0;\n    overflow: visible;\n  }\n</style>\n<iframe class=\"executionFrame\" src=\"{stderr}\"></iframe>\n</div>",
+                                        "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{queued}</span>\n<h3 class=\"post-title\">{job_id}</h3>\n<h4 class=\"post-author\">current status: {status}</h4>\n</div>\n<div class=\"post-body\">\n<style type=\"text/css\">\n  iframe.monitor_frame {\n    position: absolute;\n    width: 99%;\n    height: 90%;\n    background-color: #FFFFFF;\n    border-width: 0;\n    overflow: visible;\n  }\n</style>\n<iframe class=\"monitor_frame\" src=\"{stderr}\"></iframe>\n</div>",
                                         "layout": "fit",
                                         "title": null,
                                         "designer|userClassName": "MyPanel5"
@@ -372,7 +372,7 @@
                                     "userConfig": {
                                         "cls": "preview",
                                         "id": "work_dir_panel",
-                                        "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{queued}</span>\n<h3 class=\"post-title\">{job_id}</h3>\n<h4 class=\"post-author\">current status: {status}</h4>\n</div>\n<div class=\"post-body\">\n<style type=\"text/css\">\n  iframe.executionFrame {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    background-color: #FFFFFF;\n    border-width: 0;\n    overflow: visible;\n  }\n</style>\n<iframe class=\"executionFrame\" src=\"{work_dir}\"></iframe>\n</div>",
+                                        "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{queued}</span>\n<h3 class=\"post-title\">{job_id}</h3>\n<h4 class=\"post-author\">current status: {status}</h4>\n</div>\n<div class=\"post-body\">\n<style type=\"text/css\">\n  iframe.monitor_frame {\n    position: absolute;\n    width: 99%;\n    height: 90%;\n    background-color: #FFFFFF;\n    border-width: 0;\n    overflow: visible;\n  }\n</style>\n<iframe class=\"monitor_frame\" src=\"{work_dir}\"></iframe>\n</div>",
                                         "layout": "fit",
                                         "title": null,
                                         "designer|userClassName": "MyPanel5"

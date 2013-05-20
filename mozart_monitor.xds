@@ -236,7 +236,7 @@
                                     "userConfig": {
                                         "cls": "preview",
                                         "id": "job_info_panel",
-                                        "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{queued:this.formatDate}</span>\n<h3 class=\"post-title\">{job_id}</h3>\n<h4 class=\"post-author\">by {status}</h4>\n</div>\n<div class=\"post-body\">{parameters}</div>",
+                                        "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{queued}</span>\n<h3 class=\"post-title\">{job_id}</h3>\n<h4 class=\"post-author\">current status: {status}</h4>\n</div>\n<div class=\"post-body\">{job_info}</div>",
                                         "title": null,
                                         "designer|userClassName": "MyPanel5"
                                     }
@@ -461,6 +461,76 @@
                         "name": "duration",
                         "type": "float",
                         "designer|userClassName": "MyField7"
+                    }
+                },
+                {
+                    "id": "ExtBox1-ext-gen4307",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "job_info",
+                        "type": "string",
+                        "designer|userClassName": "MyField8"
+                    }
+                },
+                {
+                    "id": "ExtBox1-ext-gen4314",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "context",
+                        "type": "string",
+                        "designer|userClassName": "MyField9"
+                    }
+                },
+                {
+                    "id": "ExtBox1-ext-gen4321",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "stdout",
+                        "type": "string",
+                        "designer|userClassName": "MyField10"
+                    }
+                },
+                {
+                    "id": "ExtBox1-ext-gen4328",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "stderr",
+                        "type": "string",
+                        "designer|userClassName": "MyField11"
+                    }
+                },
+                {
+                    "id": "ExtBox1-ext-gen4335",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "work_dir",
+                        "type": "string",
+                        "designer|userClassName": "MyField12"
                     }
                 }
             ]

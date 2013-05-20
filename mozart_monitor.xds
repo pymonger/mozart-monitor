@@ -39,7 +39,7 @@
                     "userConfig": {
                         "height": 500,
                         "autoScroll": true,
-                        "title": "Mozart Job Monitor",
+                        "title": "Mozart Job Management",
                         "store": "MozartJsonStore",
                         "designer|userClassName": "MyGridPanel",
                         "layout|region": "north"

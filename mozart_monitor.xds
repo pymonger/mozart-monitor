@@ -164,8 +164,8 @@
                             }
                         },
                         {
-                            "id": "ExtBox1-ext-gen3968",
-                            "type": "numbercolumn",
+                            "id": "ExtBox1-ext-gen5440",
+                            "type": "gridcolumn",
                             "reference": {
                                 "name": "columns",
                                 "type": "array"
@@ -176,7 +176,7 @@
                                 "dataIndex": "duration",
                                 "flex": 1,
                                 "text": "duration (hh:mm:ss)",
-                                "designer|userClassName": "MyNumberColumn"
+                                "designer|userClassName": "MyColumn"
                             }
                         },
                         {

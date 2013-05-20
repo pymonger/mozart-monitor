@@ -216,9 +216,28 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "cls": "preview",
+                                "id": "job_info_tab",
+                                "tpl": "<div class=\"post-data\">\n<span class=\"post-date\">{pubDate:this.formatDate}</span>\n<h3 class=\"post-title\">{title}</h3>\n<h4 class=\"post-author\">by {author:this.defaultValue}</h4>\n</div>\n<div class=\"post-body\">{content:this.getBody}</div>",
+                                "width": 1355,
                                 "title": "Job Info",
                                 "designer|userClassName": "MyPanel2"
-                            }
+                            },
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen2754",
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "title": null,
+                                        "designer|userClassName": "MyPanel5"
+                                    }
+                                }
+                            ]
                         },
                         {
                             "id": "ExtBox1-ext-gen7012",
@@ -229,6 +248,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "id": "context_tab",
                                 "title": "Context",
                                 "designer|userClassName": "MyPanel2"
                             }
@@ -242,6 +262,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "id": "stdout_tab",
                                 "title": "STDOUT",
                                 "designer|userClassName": "MyPanel"
                             }
@@ -255,6 +276,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "id": "stderr_tab",
                                 "title": "STDERR",
                                 "designer|userClassName": "MyPanel1"
                             }
@@ -268,6 +290,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "id": "work_dir_tab",
                                 "title": "Work Dir",
                                 "designer|userClassName": "MyPanel2"
                             }

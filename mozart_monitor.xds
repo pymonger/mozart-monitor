@@ -38,7 +38,7 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "height": 500,
+                        "height": 300,
                         "id": "job_grid",
                         "autoScroll": true,
                         "resizable": "true",

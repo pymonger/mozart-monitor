@@ -76,8 +76,8 @@
                                 "id": "queued",
                                 "dataIndex": "queued",
                                 "flex": 1,
-                                "text": "queued (UTC)",
-                                "format": "Y-m-d H:i:s",
+                                "text": "queued",
+                                "format": "Y-m-d H:i:s T",
                                 "designer|userClassName": "MyDateColumn"
                             }
                         },
@@ -93,8 +93,8 @@
                                 "id": "started",
                                 "dataIndex": "started",
                                 "flex": 1,
-                                "text": "started (UTC)",
-                                "format": "Y-m-d H:i:s",
+                                "text": "started",
+                                "format": "Y-m-d H:i:s T",
                                 "designer|userClassName": "MyDateColumn"
                             }
                         },
@@ -110,8 +110,8 @@
                                 "id": "ended",
                                 "dataIndex": "ended",
                                 "flex": 1,
-                                "text": "ended (UTC)",
-                                "format": "Y-m-d H:i:s",
+                                "text": "ended",
+                                "format": "Y-m-d H:i:s T",
                                 "designer|userClassName": "MyDateColumn"
                             }
                         },

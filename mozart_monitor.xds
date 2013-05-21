@@ -382,6 +382,36 @@
                                     }
                                 }
                             ]
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen2307",
+                            "type": "toolbar",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyToolbar",
+                                "dock": "top"
+                            },
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen2464",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "id": "refresh_btn",
+                                        "text": "Refresh",
+                                        "designer|userClassName": "MyButton",
+                                        "layout|flex": null
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }

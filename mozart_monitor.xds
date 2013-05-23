@@ -429,6 +429,7 @@
             "codeClass": null,
             "userConfig": {
                 "storeId": "MozartJsonStore",
+                "sorters": "[\"queued\"]",
                 "designer|userClassName": "MozartJsonStore"
             },
             "cn": [

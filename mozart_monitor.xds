@@ -192,6 +192,37 @@
                                 "loadMask": "false",
                                 "designer|userClassName": "MyGridView"
                             }
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen2538",
+                            "type": "toolbar",
+                            "reference": {
+                                "name": "dockedItems",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "job_grid_toolbar",
+                                "designer|userClassName": "MyToolbar1",
+                                "dock": "top"
+                            },
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen2887",
+                                    "type": "button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "id": "restart_demo_button",
+                                        "text": "Restart Demo",
+                                        "designer|userClassName": "MyButton1",
+                                        "layout|flex": null
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -394,6 +425,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "id": "job_tab_toolbar",
                                 "designer|userClassName": "MyToolbar",
                                 "dock": "top"
                             },

@@ -463,6 +463,7 @@
             "codeClass": null,
             "userConfig": {
                 "storeId": "MozartJsonStore",
+                "defaultSortDirection": "DESC",
                 "sorters": "[\"queued\"]",
                 "designer|userClassName": "MozartJsonStore"
             },

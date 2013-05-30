@@ -223,23 +223,6 @@
                                     }
                                 }
                             ]
-                        },
-                        {
-                            "id": "ExtBox1-ext-gen4024",
-                            "type": "pagingtoolbar",
-                            "reference": {
-                                "name": "dockedItems",
-                                "type": "array"
-                            },
-                            "codeClass": null,
-                            "userConfig": {
-                                "id": "paging_toolbar",
-                                "width": null,
-                                "displayInfo": true,
-                                "store": "MozartJsonStore",
-                                "designer|userClassName": "MyPagingToolbar",
-                                "dock": "bottom"
-                            }
                         }
                     ]
                 },
@@ -482,7 +465,7 @@
                 "storeId": "MozartJsonStore",
                 "defaultSortDirection": "DESC",
                 "sorters": "[{property: \"queued\", direction: \"DESC\"}]",
-                "pageSize": 10,
+                "pageSize": null,
                 "designer|userClassName": "MozartJsonStore"
             },
             "cn": [

@@ -464,7 +464,7 @@
             "userConfig": {
                 "storeId": "MozartJsonStore",
                 "defaultSortDirection": "DESC",
-                "sorters": "[\"queued\"]",
+                "sorters": "[{property: \"queued\", direction: \"DESC\"}]",
                 "designer|userClassName": "MozartJsonStore"
             },
             "cn": [
@@ -521,6 +521,8 @@
                     "codeClass": null,
                     "userConfig": {
                         "name": "queued",
+                        "sortDir": "DESC",
+                        "sortType": "asDate",
                         "type": "date",
                         "designer|userClassName": "MyField1"
                     }
@@ -535,6 +537,8 @@
                     "codeClass": null,
                     "userConfig": {
                         "name": "started",
+                        "sortDir": "DESC",
+                        "sortType": "asDate",
                         "type": "date",
                         "designer|userClassName": "MyField2"
                     }
@@ -549,6 +553,8 @@
                     "codeClass": null,
                     "userConfig": {
                         "name": "ended",
+                        "sortDir": "DESC",
+                        "sortType": "asDate",
                         "type": "date",
                         "designer|userClassName": "MyField3"
                     }

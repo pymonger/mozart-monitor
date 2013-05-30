@@ -234,7 +234,7 @@
                             "codeClass": null,
                             "userConfig": {
                                 "id": "paging_toolbar",
-                                "width": 360,
+                                "width": null,
                                 "displayInfo": true,
                                 "store": "MozartJsonStore",
                                 "designer|userClassName": "MyPagingToolbar",

@@ -50,6 +50,21 @@
                     },
                     "cn": [
                         {
+                            "id": "ExtBox1-ext-gen2304",
+                            "type": "numbercolumn",
+                            "reference": {
+                                "name": "columns",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "num_col",
+                                "width": 50,
+                                "text": null,
+                                "designer|userClassName": "MyNumberColumn"
+                            }
+                        },
+                        {
                             "id": "ExtBox1-ext-gen3961",
                             "type": "gridcolumn",
                             "reference": {
